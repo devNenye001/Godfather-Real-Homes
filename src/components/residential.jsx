@@ -1,6 +1,8 @@
 import Button from "./button";
+import { useNavigate } from "react-router-dom";
 
-function ResidentialCard({ units, offerTitle, onButtonClick, bgImage, className }) {
+function ResidentialCard({ units, offerTitle, bgImage, className }) {
+  const navigate = useNavigate();
   return (
     <div
       className={`residentialCard ${className || ""}`}
@@ -22,7 +24,7 @@ function ResidentialCard({ units, offerTitle, onButtonClick, bgImage, className 
         <h1 style={{ fontWeight: 500 }}>{offerTitle}</h1>
       </div>
       <div className="btnDiv">
-        <Button label="More Details" onClick={onButtonClick} />
+        <Button label="View Listings" onClick={() => navigate("/listings")} />
       </div>
     </div>
   );

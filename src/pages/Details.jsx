@@ -249,7 +249,7 @@ const navigate = useNavigate();
         <h1 className="h1">SIMILAR LISTING</h1>
         <div className="div">
           {listings
-            .filter((item) => item.id !== property.id) // Exclude current
+            .filter((item) => item.id !== property.id) 
             .slice(0, 3)
             .map((listing) => (
               <MiniCard

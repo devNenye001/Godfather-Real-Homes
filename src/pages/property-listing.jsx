@@ -103,24 +103,28 @@ function Property() {
           subtitle="Browse through all available properties — from short-let apartments to premium homes and investment land opportunities."
         />
       </section>
+<section className="property-navigation">
+  <h1>LIST OF PROPERTIES</h1>
+  <p>Discover a range of property types tailored to your lifestyle and goals.</p>
+  <div className="property-links">
+    <Button
+      label="Living House"
+      onClick={() => setActiveCategory("Living House")}
+      className={activeCategory === "Living House" ? "button active-button" : "button"}
+    />
+    <Button
+      label="Apartments"
+      onClick={() => setActiveCategory("Apartments")}
+      className={activeCategory === "Apartments" ? "button active-button" : "button"}
+    />
+    <Button
+      label="Real Estate"
+      onClick={() => setActiveCategory("Real Estate")}
+      className={activeCategory === "Real Estate" ? "button active-button" : "button"}
+    />
+  </div>
+</section>
 
-      <div className="property-links">
-  <Button
-    label="Living House"
-    onClick={() => setActiveCategory("Living House")}
-    className={activeCategory === "Living House" ? "button active-button" : "button"}
-  />
-  <Button
-    label="Apartments"
-    onClick={() => setActiveCategory("Apartments")}
-    className={activeCategory === "Apartments" ? "button active-button" : "button"}
-  />
-  <Button
-    label="Real Estate"
-    onClick={() => setActiveCategory("Real Estate")}
-    className={activeCategory === "Real Estate" ? "button active-button" : "button"}
-  />
-</div>
 
 
       <section className="properties">

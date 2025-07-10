@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 .nav {
   width: 100vw;
   height: 11vh;
@@ -436,6 +440,14 @@
 }
 }
 
+/* responsive */
+@media screen and (max-width: 420px) {
+
+.classImg {
+  padding: 20px;
+}
+}
+
 /* footer */
 footer{
     width: 100vw;
@@ -543,6 +555,14 @@ footer img{
 @media (max-width: 390px) {
   footer{
     height: 90vh;
+}
+
+}
+
+/* responsive */
+@media (max-width: 420px) {
+  footer{
+    height: 78vh;
 }
 
 }
