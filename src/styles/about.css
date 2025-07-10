@@ -1,0 +1,272 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 100vw;
+}
+
+.about-heading {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("/Overlay.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.about-heading > p {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 250px;
+  text-wrap: wrap;
+  text-align: center;
+  color: #343434;
+  text-align: center;
+  font-size: 18px;
+}
+
+.aboutText {
+  margin-top: 30px;
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutText h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff2f2;
+  text-align: center;
+}
+
+.aboutText p {
+  font-size: 20px;
+  color: #eff3f6;
+}
+
+
+/* responsive */
+@media screen and (max-width: 608px) {
+  .aboutText p,
+  .about-heading > p {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 30px;
+    text-wrap: wrap;
+    text-align: center;
+  }
+
+  .aboutText h1 {
+   font-size: 32px;
+}
+  .aboutText {
+    height: 30vh;
+  }
+}
+
+/* responsive */
+@media screen and (max-width: 388px) {
+  .aboutText p,
+  .about-heading > p {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 20px;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+/* our mission */
+.mission {
+  height: 40vh;
+  overflow: hidden;
+}
+
+.mission h1 {
+  opacity: 80%;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mission p {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 250px;
+  text-align: center;
+  color: #343434;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  .mission h1 {
+    font-size: 26px;
+  }
+
+  .mission p {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 30px;
+    font-size: 16px;
+  }
+
+  .mission {
+  height: 25vh;
+}
+}
+
+/* services section */
+.services {
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+}
+
+.services-text {
+  width: 100%;
+  text-align: center;
+}
+
+.services-text h1 {
+  opacity: 80%;
+  font-weight: 500;
+}
+
+.services-text p {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 250px;
+  text-align: center;
+  color: #343434;
+  text-align: center;
+  font-size: 18px;
+}
+
+.ServicesDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.ServicesCard {
+    width: 350px !important;
+  height: auto !important;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+
+  .services-text{
+    height: 30%;
+  }
+
+.services-text h1 {
+  font-size: 26px;
+}
+
+.services-text p {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.ServicesDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+
+.ServicesCard {
+    width: 300px !important;
+  height: auto !important;
+  margin-right: 20px;
+}
+
+.services {
+  height: 90vh;
+  padding: 10px 30px;
+}
+}
+
+/* Meet our team */
+
+
+.team-gallery{
+  margin-top: 20px;
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team {
+  height: 100vh;
+  height: auto;
+  padding: 50px 250px;
+  overflow: hidden;
+}
+
+.team > h1{
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+.member-details img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.member-details{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.member-details h1{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.member-details p{
+ font-size: 16px;
+ color:#343434;
+ opacity: 90%;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  .team-gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.team {
+  padding: 50px 30px;
+}
+
+.team > h1{
+  font-size: 26px;
+}
+}
+

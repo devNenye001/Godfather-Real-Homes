@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 100vw;
+}
+
+.project-heading {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("/Overlay.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #eff3f6;
+}
+
+.projectText {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.projectText h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff2f2;
+  text-align: center;
+}
+
+@media (max-width: 600px){
+    .projectText h1 {
+  font-size: 32px;
+}
+.projectText {
+  font-size: 16px;
+  text-align: center;
+}
+}
+
+/* responsive */
+@media screen and (max-width: 388px) {
+  .projectText p,
+  .project-heading > p {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 20px;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+/* project section-property */
+.projects{
+    padding: 30px 40px;
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.property > h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.property > p{
+  font-size: 16px;
+  color: #343434;
+}
+
+.property{
+    height: auto;
+    width: auto;
+}
+
+.property img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px){
+  .projects{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.property > h5{
+  font-size: 16px;
+}
+
+.property > p{
+  font-size: 12px;
+}
+}
