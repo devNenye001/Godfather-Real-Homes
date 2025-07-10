@@ -18,6 +18,7 @@ import "./styles/contact.css";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -26,7 +27,6 @@ function App() {
         <Route path="/listings" element={<PropertyListing />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
-      <ScrollToTop />
     </Router>
   );
 }

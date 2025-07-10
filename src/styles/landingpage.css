@@ -6,8 +6,10 @@
 }
 
 html, body {
-  overflow-x: hidden; 
-  overflow-y: auto;  
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  min-height: 100dvh;
 }
 
 .nav {
@@ -101,7 +103,7 @@ html, body {
 /* hero section */
 .Hero {
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
   background-image: url("/Hero Section.png");
   background-size: cover;
   background-position: center;
@@ -555,7 +557,7 @@ footer img{
 /* responsive */
 @media (max-width: 390px) {
   footer{
-    height: 90vh;
+    height: 96vh;
 }
 
 }
