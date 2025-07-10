@@ -12,7 +12,7 @@ section {
 .about-heading {
   width: 100vw;
   height: 80vh;
-  background-image: url("/Overlay.png");
+  background-image: url("/Overlay2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,6 +88,7 @@ section {
 .mission {
   height: 40vh;
   overflow: hidden;
+  padding: 30px;
 }
 
 .mission h1 {
