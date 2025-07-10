@@ -565,14 +565,14 @@ footer img{
 /* responsive */
 @media (max-width: 420px) {
   footer{
-    height: 80dvh;
+    height: 85dvh;
 }
 }
 
 /* responsive */
 @media (max-width: 390px) {
   footer{
-    height: 80dvh;
+    height: 85dvh;
 }
 
 }
