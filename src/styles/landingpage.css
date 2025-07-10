@@ -14,7 +14,7 @@ html, body {
 
 .nav {
   width: 100vw;
-  height: 11vh;
+  height: 11dvh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,7 @@ html, body {
   top: 0;
   right: -250px;
   width: 250px;
-  height: 100vh;
+  height: 100dvh;
   background-color: #343434;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ html, body {
 /* hero section */
 .Hero {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-image: url("/Hero Section.png");
   background-size: cover;
   background-position: center;
@@ -111,7 +111,7 @@ html, body {
 }
 
 .heroText {
-  height: 60vh;
+  height: 60dvh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -147,7 +147,7 @@ html, body {
 /* features section */
 .FeaturesSection {
   width: 100vw;
-  height: 60vh;
+  height: 60dvh;
   color: #12161d;
   padding: 50px 70px;
   display: flex;
@@ -220,7 +220,7 @@ html, body {
 /* features2 section */
 .featureSection2 {
   width: 100vw;
-  height: 80vh;
+  height: 80dvh;
   color: #12161d;
   padding: 10px 70px;
   display: flex;
@@ -256,7 +256,7 @@ html, body {
 @media screen and (max-width: 768px) {
   .featureSection2 {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     color: #12161d;
     padding: 10px 40px;
     display: flex;
@@ -387,7 +387,7 @@ html, body {
 /* contact section */
 .contact {
   width: 100vw;
-  height: 80vh;
+  height: 80dvh;
   padding: 20px 40px;
 }
 
@@ -453,8 +453,8 @@ html, body {
 
 /* footer */
 footer{
-    width: 100vw;
-    height: 50vh;
+    width: 100dvw;
+    height: 50dvh;
     background-color:#eff3f6;
     display: flex;
     flex-direction: column;
@@ -512,7 +512,7 @@ footer p{
 /* responsive */
 @media screen and (max-width: 768px) {
 footer{
-    height: 105vh;
+    height: 105dvh;
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
@@ -557,7 +557,7 @@ footer img{
 /* responsive */
 @media (max-width: 390px) {
   footer{
-    height: 96vh;
+    height: 100dvh;
 }
 
 }
@@ -565,7 +565,14 @@ footer img{
 /* responsive */
 @media (max-width: 420px) {
   footer{
-    height: 78vh;
+    height: 80dvh;
+}
+}
+
+/* responsive */
+@media (max-width: 390px) {
+  footer{
+    height: 80dvh;
 }
 
 }

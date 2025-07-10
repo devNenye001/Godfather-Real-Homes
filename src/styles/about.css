@@ -11,7 +11,7 @@ section {
 
 .about-heading {
   width: 100vw;
-  height: 80vh;
+  height: 80dvh;
   background-image: url("/Overlay2.png");
   background-size: cover;
   background-position: center;
@@ -32,7 +32,7 @@ section {
 
 .aboutText {
   margin-top: 30px;
-  height: 40vh;
+  height: 40dvh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -67,7 +67,7 @@ section {
    font-size: 32px;
 }
   .aboutText {
-    height: 30vh;
+    height: 30dvh;
   }
 }
 
@@ -86,7 +86,7 @@ section {
 
 /* our mission */
 .mission {
-  height: 40vh;
+  height: 40dvh;
   overflow: hidden;
   padding: 30px;
 }
@@ -122,13 +122,13 @@ section {
   }
 
   .mission {
-  height: 25vh;
+  height: 25dvh;
 }
 }
 
 /* services section */
 .services {
-  height: 90vh;
+  height: 90dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -200,7 +200,7 @@ section {
 }
 
 .services {
-  height: 90vh;
+  height: 90dvh;
   padding: 10px 30px;
 }
 }
@@ -218,7 +218,7 @@ section {
 }
 
 .team {
-  height: 100vh;
+  height: 100dvh;
   height: auto;
   padding: 50px 250px;
   overflow: hidden;

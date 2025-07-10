@@ -11,7 +11,7 @@ section {
 
 .project-heading {
   width: 100vw;
-  height: 60vh;
+  height: 60dvh;
   background-image: url("/Overlay2.png");
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@ section {
 }
 
 .projectText {
-  height: 40vh;
+  height: 40dvh;
   width: 100vw;
   display: flex;
   align-items: center;
