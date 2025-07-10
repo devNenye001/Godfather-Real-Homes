@@ -28,11 +28,7 @@ function Hero() {
         </h1>
         <div className="featuresText">
           <div>
-            GodFather Real Homes offers you comfortable, safe, and affordable
-            housing designed with elegance and simplicity. With our
-            cluster-style layout, you can enjoy privacy, peace of mind, and the
-            beauty of a clean, well-organized environment — perfect for you and
-            your family.
+            Godfather real homes offers you Luxurious Comfortable and a Dream home experience in a serene environment.Designed with the feeling of a real home  styled with elegance our space Forster's Love
           </div>
           <div className="featuresNumbers">
             <div>
