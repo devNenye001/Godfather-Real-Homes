@@ -549,22 +549,9 @@ footer p {
 }
 
 /* responsive */
-@media (max-width: 390px) {
-  footer {
-    height: 100dvh;
-  }
-}
-
-/* responsive */
 @media (max-width: 420px) {
   footer {
-    height: 85dvh;
+    height: auto;
   }
 }
 
-/* responsive */
-@media (max-width: 390px) {
-  footer {
-    height: 85dvh;
-  }
-}
