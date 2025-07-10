@@ -5,8 +5,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-body, html {
-  overflow-x: hidden;
+html, body {
+  overflow-x: hidden; 
+  overflow-y: auto;  
 }
 
 .nav {
@@ -444,7 +445,7 @@ body, html {
 @media screen and (max-width: 420px) {
 
 .classImg {
-  padding: 20px;
+  padding: 10px;
 }
 }
 
