@@ -506,7 +506,6 @@ footer p {
 /* responsive */
 @media screen and (max-width: 768px) {
   footer {
-    height: 105dvh;
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
@@ -554,4 +553,3 @@ footer p {
     height: auto;
   }
 }
-
